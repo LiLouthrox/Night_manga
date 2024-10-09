@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Manga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Night Manga</h1>
+        <div class="theme-toggle">
+            <button id="toggle-theme">تغيير المظهر</button>
+        </div>
+        <input type="text" id="search" placeholder="ابحث عن مانجا...">
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#manga1">مانجا 1</a></li>
+                <li><a href="#manga2">مانجا 2</a></li>
+                <!-- أضف المزيد من المانجا هنا -->
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="manga-list">
+            <h2>المانجا المترجمة</h2>
+            <div class="manga-item" id="manga1">
+                <h3>مانجا 1</h3>
+                <p>فصل 1: <a href="#">رابط الفصل</a></p>
+                <p>فصل 2: <a href="#">رابط الفصل</a></p>
+                <p>وصف عن العمل...</p>
+            </div>
+            <div class="manga-item" id="manga2">
+                <h3>مانجا 2</h3>
+                <p>فصل 1: <a href="#">رابط الفصل</a></p>
+                <p>فصل 2: <a href="#">رابط الفصل</a></p>
+                <p>وصف عن العمل...</p>
+            </div>
+            <!-- أضف المزيد من المانجا هنا -->
+        </section>
+        
+        <section id="feedback">
+            <h2>أخبرنا برأيك</h2>
+            <textarea placeholder="اكتب فكرتك أو مشكلتك هنا..."></textarea>
+            <button>إرسال</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
